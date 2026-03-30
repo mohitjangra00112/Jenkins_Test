@@ -19,7 +19,7 @@ pipeline {
         stage('Checkout PR') {
             steps {
                 git branch: "refs/pull/${params.PR_NUMBER}/head",
-                    url: 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
+                    url: 'https://github.com/mohitjangra00112/Jenkins_Test'
             }
         }
 
