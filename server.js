@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Node + Docker + Nginx working");
+  res.send("Node + Docker + Nginx working + jenkins integration");
 });
 
 app.listen(3000, () => {
